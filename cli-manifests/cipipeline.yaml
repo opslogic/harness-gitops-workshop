@@ -40,7 +40,7 @@ pipeline:
                     advanced:
                       log:
                         level: info
-                      fail_on_severity: none 
+                      fail_on_severity: none
               - step:
                   type: BuildAndPushDockerRegistry
                   name: BuildAndPushDockerRegistry
@@ -57,7 +57,7 @@ pipeline:
       type: String
       description: ""
       required: false
-      value: DOCKER_USERNAME/harness-gitops-workshop
+      value: opslogic/harness-gitops-workshop
     - name: imageTag
       type: String
       description: ""
