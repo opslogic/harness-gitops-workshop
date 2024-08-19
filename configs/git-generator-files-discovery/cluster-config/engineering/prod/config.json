@@ -5,6 +5,6 @@
     "name" : "gitopscluster",
     "namespace" : "prod"
   },
-  "asset_id" : "12345678",
-  "aws_account" : "123456"
+  "aws_account" : "123456",
+  "asset_id" : "opslogic-757a68468d732763b7d6eca29c804091d51b74b0"
 }
